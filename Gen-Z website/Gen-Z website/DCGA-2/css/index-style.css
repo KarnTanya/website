@@ -1,0 +1,2086 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=Rajdhani:wght@300&display=swap');
+
+
+#gallery-gap{
+  margin-top: -10px;
+}
+
+
+
+
+::-webkit-scrollbar-thumb{
+  width: 15px !important;
+  background:#e3e3e3 !important;
+  
+}
+
+::-webkit-scrollbar{
+  width: 10px !important;
+  background: #e70000 !important;
+  
+}
+
+
+
+
+.btn{
+  font-size: 15px;
+  position: absolute;
+  top:70%;
+  text-align: center;
+  color: #e70000;
+  border: 1px solid #e70000 !important;
+  padding: 15px 27px;
+  font-family: myfont;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.btn:hover {
+  color: white;
+  box-shadow: 0 0 30px 0 rgba(0, 199, 236, 0.5);
+  background-color: #e70000 !important;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.btn:hover:before {
+  -webkit-animation: shine 0.5s 0s linear;
+  -moz-animation: shine 0.5s 0s linear;
+  animation: shine 0.5s 0s linear;
+}
+.btn:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+.btn:before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: white;
+  box-shadow: 0 0 15px 3px white;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@-webkit-keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+@-moz-keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+@keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+  
+body{
+  background: var(--black) !important;
+  overflow: hidden;
+}
+
+
+:root{
+    --red:#e70000;
+    --white:#fff;
+    --black:#000;
+    --light-white:#c8c8c8;
+}
+
+.p-line{
+  width: 150px;
+  height: 2px;
+  background: var(--red);
+  margin: 10px auto;
+}
+
+
+
+#about{/*start-about*/
+    width:100%;
+    height:auto;
+    background: var(--black);
+    margin-top: 1px solid var(--red);
+    margin-top: 80px;
+}
+
+#about .about-image{
+    width:100%;
+    height:600px;
+    position: relative;
+}
+
+#about .about-image .image-1{
+    width:80%;
+    height:500px;
+    background: url(../images/about/about\ us\ \ image\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#about .about-image .image-2{
+    width:60%;
+    height:250px;
+    background: url(../images/about/about\ us\ logo\ 4.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:45%;
+    left:35%;
+}
+
+
+#about .about-text{
+    width: 100%;
+    height:550px;
+    background:;
+    position: relative;
+}
+
+#about .about-text .line{
+    position: absolute;
+    top:5%;
+    width:100px;
+    height:2px;
+    background: red;
+}
+
+#about .about-text h3{
+    position: absolute;
+    top:3%;
+    left:20%;
+    font-size: 17px;
+    font-family: myfont;
+}
+
+
+
+#about .about-text h2{
+    position: absolute;
+    top:12%;
+    font-size: 45px;
+    font-family: changa;
+    line-height: 55px;
+}
+
+#about .about-text h2 label{
+    color:var(--red);
+}
+
+#about .about-text p{
+    position: absolute;
+    top:35%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15.5px;
+    line-height: 30px;
+    text-align: justify;
+    color: var(--light-white);
+}
+
+
+
+ #about .about-text .btn {
+  font-size: 12px !important;
+  position: absolute;
+  top:85%;
+  text-align: center;
+  color: #e70000;
+  border: 1px solid #e70000;
+  padding: 15px 27px;
+  font-family: myfont;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+ #about .about-text .btn:hover {
+  color: white;
+  box-shadow: 0 0 30px 0 rgba(0, 199, 236, 0.5);
+  background-color: #e70000;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+ #about .about-text .btn:hover:before {
+  -webkit-animation: shine 0.5s 0s linear;
+  -moz-animation: shine 0.5s 0s linear;
+  animation: shine 0.5s 0s linear;
+}
+ #about .about-text .btn:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+ #about .about-text .btn:before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: white;
+  box-shadow: 0 0 15px 3px white;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@-webkit-keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+@-moz-keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+@keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}/*end-about*/
+  
+
+  #about-2{/*start-about2*/
+    width:100%;
+    height:auto;
+    background:  none;
+    background: var(--black);
+    background-size: cover;
+  }
+
+  #about-2 .text{
+    width:100%;
+    height:500px;
+    background: ;
+    margin-bottom: 50px;
+  }
+
+  #about-2 .text h2{ 
+    font-size: 40px;
+    margin-top: 100px;
+    font-family: changa;
+    line-height: 55px;
+  }
+
+  #about-2 .text h2 label{
+    color:var(--red);
+  } 
+
+  #about-2 .text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15.5px;
+    margin-top: 40px;
+    width: 100%;
+    text-align: justify;
+    color: var(--light-white);
+  }
+
+  #about-2 .text .line{
+    width:200px;
+    height:2px;
+    background:#e70000;
+  }
+  
+
+  #about-2 .text .btn {
+    font-size: 12px;
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+    color: #e70000;
+    border: 1px solid #e70000;
+    padding: 15px 27px;
+    font-family: myfont;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+   #about-2 .text .btn:hover {
+    color: white;
+    box-shadow: 0 0 30px 0 rgba(0, 199, 236, 0.5);
+    background-color: #e70000;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+   #about-2 .text .btn:hover:before {
+    -webkit-animation: shine 0.5s 0s linear;
+    -moz-animation: shine 0.5s 0s linear;
+    animation: shine 0.5s 0s linear;
+  }
+   #about-2 .text .btn:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+  }
+   #about-2 .text .btn:before {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: white;
+    box-shadow: 0 0 15px 3px white;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+  }
+  
+  @-webkit-keyframes shine {
+    from {
+      opacity: 0;
+      left: 0%;
+    }
+    50% {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
+  @-moz-keyframes shine {
+    from {
+      opacity: 0;
+      left: 0%;
+    }
+    50% {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
+  @keyframes shine {
+    from {
+      opacity: 0;
+      left: 0%;
+    }
+    50% {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
+  
+
+
+  #about-2 .text2{
+    width:100%;
+    height:500px;
+    background: ;
+  }
+
+
+  #about-2 .text2 .product-1{
+    width:100%;
+    height:280px;
+    background: ;
+    position: relative;
+  }
+
+  #about-2 .text2 .product-1 .image{
+    width:30%;
+    height:250px;
+    background: url(../images/services/about\ 2\ pc.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:23%;
+    left:2%;
+  }
+
+  #about-2 .text2 .product-1 .text-1{
+    width:60%;
+    height:280px;
+    background:none ;
+    float: right;
+  }
+
+  #about-2 .text2 .product-1 .text-1 h3{
+    margin-top: 60px;
+    font-family: changa;
+    font-size: 30px;
+    color:var(--red);
+  }
+
+  #about-2 .text2 .product-1 .text-1 p{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    color: var(--light-white);
+  }
+
+
+
+  #about-2 .text2 .product-2{
+    width:100%;
+    height:280px;
+    margin-top: 20px;
+    background: ;
+    position: relative;
+  }
+
+  #about-2 .text2 .product-2 .image2{
+    width:30%;
+    height:235px;
+    background: url(../images/services/aboute\ 2\ B.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:23%;
+    left:2%;
+  }
+
+  #about-2 .text2 .product-2 .text-2{
+    width:60%;
+    height:280px;
+    background: ;
+    float: right;
+  }
+
+  #about-2 .text2 .product-2 .text-2 h3{
+    margin-top: 60px;
+    font-family: changa;
+    font-size: 30px;
+    color:var(--red);
+  }
+
+  #about-2 .text2 .product-2 .text-2 p{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    color: var(--light-white);
+  }/*end-about2*/
+
+
+  #vd{/*end-vd*/
+    width:100%;
+    height:auto;
+    background:#000;
+
+  }
+
+  #vd h2{
+   font-size: 50px;
+    margin-top: 70px;
+    text-align: center;
+    font-family: changa;
+  }
+
+  #vd h2 label{
+    color: var(--red);
+  }
+
+  #vd video{
+    margin: 60px auto;
+    width: 100%;
+    height: 80vh;
+  }/*end-vd*/
+
+
+
+  #services{/*start-services*/
+    width:100%;
+    height:auto;
+    background: none;
+    margin-top: 50px;
+  }
+
+  #services h2{
+    font-size: 50px;
+    margin-top: 70px;
+    text-align: center;
+    font-family: changa !important;
+  }
+
+  #services h2 label{
+    color:var(--red);
+  }/*end-services*/
+
+
+
+
+  #gallery-image1{
+    width: 100%;
+    height:auto;
+    background: none;
+    margin-top: 100px;
+  }
+
+  #gallery-image1 h2{
+    font-size: 50px;
+    margin-top: 70px;
+    text-align: center;
+    font-family: changa;
+  }
+
+
+  #gallery-image1 h2 label{
+    color:var(--red);
+  }
+
+
+
+
+
+#product-info{/*start-product-info*/
+  width:100%;
+  height:auto;
+  background: #060606;
+}
+
+#product-info h2{
+  font-size: 50px;
+  margin-top: 70px;
+  text-align: center;
+  font-family: changa;
+}
+
+
+#product-info h2 label{
+  color:var(--red);
+}
+
+
+
+#product-info .product1-info{
+  width:100%;
+  height:500px;
+  background: none;
+  position: relative;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+
+#product-info .product1-info .product-info-image{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:500px;
+  background: url(../images/products/product\ gaming\ image.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: all .2s;
+  cursor:pointer;
+}
+
+
+#product-info .product1-info .product-info-image:hover{
+  transform: scale(1.1,1.1);
+  filter: grayscale(0);
+}
+
+
+
+#product-info .product1-text{
+  width: 100%;
+  height:500px;
+  background: ;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+
+#product-info .product1-text h2{
+  font-size: 35px;
+  font-family: changa;
+  text-align: left;
+  color:var(--red);
+  line-height: 50px;
+}
+
+
+#product-info .product1-text p{
+  text-align: left;
+  margin-top: 20px;
+  width: 90%;
+  font-size: 16px;
+  line-height: 28px;
+  color:#cfcfcf;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#product-info .product1-text ul{
+  font-size: 15px;
+  margin-left: -20px;
+  margin-top: 10px;
+  width: 90%;
+  color:#c4c4c4;
+}
+
+#product-info .product1-text ul li{
+  font-family: 'Montserrat', sans-serif;
+  list-style-type: circle;
+  line-height: 35px;
+}
+
+
+
+#product-info .product1-text .btn{
+  padding: 15px 27px;
+  font-size: 12px;
+  font-family: myfont;
+  margin-top: 110px;
+  color: var(--red);
+}
+
+#product-info .product1-text .btn:hover{
+  color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+#product-info .product2-info{
+  width:100%;
+  height:500px;
+  background: none;
+  position: relative;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+
+#product-info .product2-info .product2-info-image{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:500px;
+  background: url(../images/products/product\ pro\ image.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: all .2s;
+  cursor:pointer;
+}
+
+
+#product-info .product2-info .product2-info-image:hover{
+  transform: scale(1.1,1.1);
+  filter: grayscale(0);
+}
+
+
+
+#product-info .product2-text{
+  width: 100%;
+  height:500px;
+  background: ;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+
+#product-info .product2-text h2{
+  font-size: 35px;
+  font-family: changa;
+  text-align: left;
+  color:var(--red);
+  line-height: 50px;
+}
+
+#product-info .product2-text p{
+  text-align: left;
+  margin-top: 30px;
+  width: 90%;
+  font-size: 16px;
+  line-height: 30px;
+  color:#cfcfcf;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#product-info .product2-text ul{
+  font-size: 15px;
+  margin-left: -20px;
+  margin-top: 10px;
+  width: 90%;
+  color:#c4c4c4;
+}
+
+#product-info .product2-text ul li{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  list-style-type: circle;
+  line-height: 35px;
+}
+
+
+
+#product-info .product2-text .btn{
+  padding: 15px 27px;
+  font-size: 12px;
+  font-family: myfont;
+  margin-top: 110px;
+  color: var(--red);
+}
+
+#product-info .product2-text .btn:hover{
+  color: var(--white);
+}
+
+
+
+  #staffs{/*start-staffs*/
+    width:100%;
+    height:auto;
+    background: #060606;
+  }
+
+  #staffs h2{
+    font-size: 50px;
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  #staffs h2 label{
+    color:var(--red);
+  }/*end-staffs*/
+
+
+
+  #details{/*start-details*/
+    width: 100%;
+    height:auto;
+    background: none;
+    margin:100px 0;
+  }
+
+
+  #details .image-box{
+    width:100%;
+    height:350px;
+    background: red;
+    margin-top:50px;
+    position: relative;
+  }
+
+  #details .image-box .image-1{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:350px;
+    background:url(../images/i.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #details .image-box .image-1 h4{
+    position: absolute;
+    top:25%;
+    right:10%;
+    font-size: 14px;
+  }
+
+  #details .image-box .image-1 h2{
+    position: absolute;
+    top:32%;
+    right:10%;
+    font-size: 40px;
+    text-align: right;
+  }
+
+
+
+  
+
+  #details .image-box .image-1 .btn {
+  font-size: 10px !important;
+  position: absolute;
+  top:70%;
+  right:10%;
+  text-align: center;
+  color: #e70000;
+  border: 1px solid #e70000 !important;
+  padding: 12px 20px;
+  font-family: myfont;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+  #details .image-box .image-1 .btn:hover {
+  color: white;
+  box-shadow: 0 0 30px 0 rgba(0, 199, 236, 0.5);
+  background-color: #e70000 !important;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+  #details .image-box .image-1 .btn:hover:before {
+  -webkit-animation: shine 0.5s 0s linear;
+  -moz-animation: shine 0.5s 0s linear;
+  animation: shine 0.5s 0s linear;
+}
+  #details .image-box .image-1 .btn:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+  #details .image-box .image-1 .btn:before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: white;
+  box-shadow: 0 0 15px 3px white;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@-webkit-keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+@-moz-keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+@keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+#details .image-box2{
+  width:100%;
+  height:350px;
+  background: red;
+  margin-top:50px;
+  position: relative;
+
+}
+
+#details .image-box2 .image-2{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:350px;
+  background:url(../images/i.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#details .image-box2 .image-2 h4{
+  position: absolute;
+  top:25%;
+  right:10%;
+  font-size: 14px;
+}
+
+#details .image-box2 .image-2 h2{
+  position: absolute;
+  top:32%;
+  right:10%;
+  font-size: 40px;
+  text-align: right;
+}
+
+
+
+
+
+  #details .image-box2 .image-2 .btn {
+  font-size: 10px !important;
+  position: absolute;
+  top:70%;
+  right:10%;
+  text-align: center;
+  color: #e70000;
+  border: 1px solid #e70000 !important;
+  padding: 12px 20px;
+  font-family: myfont;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  }
+  #details .image-box2 .image-2 .btn:hover {
+  color: white;
+  box-shadow: 0 0 30px 0 rgba(0, 199, 236, 0.5);
+  background-color: #e70000 !important;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  }
+  #details .image-box2 .image-2 .btn:hover:before {
+  -webkit-animation: shine 0.5s 0s linear;
+  -moz-animation: shine 0.5s 0s linear;
+  animation: shine 0.5s 0s linear;
+  }
+  #details .image-box2 .image-2 .btn:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+  }
+  #details .image-box2 .image-2 .btn:before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: white;
+  box-shadow: 0 0 15px 3px white;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  }
+
+  @-webkit-keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+  }
+  @-moz-keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+  }
+  @keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+  }/*end-details*/
+
+
+  #vd{/*end-vd*/
+    width:100%;
+    height:auto;
+    background:#000;
+
+  }
+
+  #vd h2{
+   font-size: 50px;
+    margin-top: 70px;
+    text-align: center;
+    font-family: changa;
+  }
+
+  #vd h2 label{
+    color: var(--red);
+  }
+
+  #vd video{
+    margin: 60px auto;
+    width: 100%;
+    height: 80vh;
+  }/*end-vd*/
+
+
+  
+
+
+  #products{/*start-gallery*/
+    width:100%;
+    height:auto;
+    background: none;
+    margin: 50px 0;
+  }
+
+  #products h2{
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #products h2 label{
+    color:var(--red);
+  }/*end-gallery*/
+
+  
+
+  #shop{/*start-shop*/
+    width: 100%;
+    height:auto;
+    background: none;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+
+  #shop .line{
+    width:100px;
+    height:2px;
+    background: var(--red);
+    margin: 0 auto;
+  }
+
+  #shop h2{
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'changa', sans-serif;
+  } 
+
+  #shop h2 label{
+    color: var(--red);
+  }
+
+  #shop p{
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+
+  #shop .card{
+    width: 100%;
+    height:auto;
+    border: .1px solid #242424;
+    border-radius: 0;
+    margin-top: 50px;
+  }
+
+
+  #shop .card:hover{
+    box-shadow: .1px .1px 8px #8a0202;
+  }
+
+
+  #shop .card .card-image1-op{
+    width:100%;
+    height:400px;
+    overflow: hidden;
+    background: none;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+
+  #shop .card .card-image1-op .card-image1{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:400px;
+    background: url(../images/shop-product/shop\ image\ 3\ copy.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all .8s;
+  }
+
+  #shop .card .card-image1-op .card-image1:hover{
+    transform: scale(1.1,1.1);
+  }
+
+
+
+  #shop .card #text-1 .btn{
+    margin-bottom: 20px;
+    margin-top:   5px;
+  }
+
+  #shop .card #text-2 .btn{
+    margin-bottom: 20px;
+    margin-top: 45px;
+  }
+
+  #shop .card #text-3 .btn{
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+
+  
+  #shop .card .card-image2-op{
+    width:100%;
+    height:400px;
+    overflow: hidden;
+    background: none;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+
+  #shop .card .card-image2-op .card-image2{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:400px;
+    background: url(../images/shop-product/shop\ image\ 4\ copy.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all .8s;
+  }
+
+  #shop .card .card-image2-op .card-image2:hover{
+    transform: scale(1.1,1.1);
+  }
+
+
+
+
+  
+  #shop .card .card-image3-op{
+    width:100%;
+    height:400px;
+    overflow: hidden;
+    background: none;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+
+  #shop .card .card-image3-op .card-image3{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:400px;
+    background: url(../images/shop-product/shop\ image\ 5\ copy.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all .8s;
+  }
+
+  #shop .card .card-image3-op .card-image3:hover{
+    transform: scale(1.1,1.1);
+  }
+
+
+
+
+  #shop .card .card-image4-op{
+    width:100%;
+    height:400px;
+    overflow: hidden;
+    background: none;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+
+  #shop .card .card-image4-op .card-image4{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:400px;
+    background: url(../images/shop-product/shop\ image\ 1\ copy.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all .8s;
+  }
+
+  #shop .card .card-image4-op .card-image4:hover{
+    transform: scale(1.1,1.1);
+  }
+
+
+
+
+  #shop .card .card-image5-op{
+    width:100%;
+    height:400px;
+    overflow: hidden;
+    background: none;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+
+  #shop .card .card-image5-op .card-image5{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:400px;
+    background: url(../images/shop-product/shop\ image\ 6\ copy.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all .8s;
+  }
+
+  #shop .card .card-image5-op .card-image5:hover{
+    transform: scale(1.1,1.1);
+  }
+
+
+
+
+
+  #shop .card .card-image6-op{
+    width:100%;
+    height:400px;
+    overflow: hidden;
+    background: none;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+
+  #shop .card .card-image6-op .card-image6{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:400px;
+    background: url(../images/shop-product/shop\ image\ 2\ copy.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all .8s;
+  }
+
+  #shop .card .card-image6-op .card-image6:hover{
+    transform: scale(1.1,1.1);
+  }
+
+  
+
+  #shop .card .card-text{
+    width:100%;
+    height:auto;
+  }
+
+  #shop .card .card-text h2{
+    font-size: 22px;
+    color: var(--red);
+    width: 90%;
+    background: ;
+    text-align: left;
+    margin: 20px auto;
+    line-height: 30px;
+    font-family: 'Changa', sans-serif;
+    font-weight: 600;
+  }
+
+  #shop .card .card-text p label{
+    padding-left: 30px;
+    background: none;
+  }
+
+
+  #shop .card .card-text p{@
+    letter-spacing: 2px; 
+    text-align: left;
+    background: ;
+    width: 90%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -10px;
+    color:var(--light-blue);
+  }
+
+  #shop .card .card-text p{
+    color:var(--light-blue) !important;
+    text-indent: 5px;
+  }
+ 
+
+  #shop .card .card-text p .fa-circle{
+    font-size: 8px;
+    color:#878787;
+    margin-right: 15px;
+  }
+  
+  
+
+  #shop .card .card-text .btn{
+  font-size: 10px !important;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #e70000;
+  border: 1px solid #e70000 !important;
+  padding: 15px 27px;
+  font-family: myfont;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+  #shop .card .card-text .btn:hover {
+  color: white;
+  box-shadow: 0 0 30px 0 rgba(0, 199, 236, 0.5);
+  background-color: #e70000 !important;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+  #shop .card .card-text .btn:hover:before {
+  -webkit-animation: shine 0.5s 0s linear;
+  -moz-animation: shine 0.5s 0s linear;
+  animation: shine 0.5s 0s linear;
+}
+  #shop .card .card-text .btn:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+  #shop .card .card-text .btn:before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: white;
+  box-shadow: 0 0 15px 3px white;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@-webkit-keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+@-moz-keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+@keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}/*end-shop*/
+
+
+#product-5-btn .btn{
+  margin-bottom: 22px !important;
+}
+
+
+#product-6-btn .btn{
+  margin-bottom: 14px !important;
+}
+
+
+
+
+
+#contact{/*start-contact*/
+  width:100%;
+  height:auto;
+  background: #110707;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+
+#contact .contact-form{
+  width:100%;
+  height:auto;
+  background: none;
+  border:1px solid #575757 !important;
+  margin: 30px auto;
+}
+
+#contact .contact-form h2{
+  font-size: 35px;
+  color: var(--red);
+  font-family: changa;
+  margin-bottom: -30px;
+}
+
+
+#contact .contact-form .name{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: montserrat;
+}
+
+
+#contact .contact-form .name #first{
+  width: 48%;
+}
+
+#contact .contact-form .name #last{
+  width: 48%;
+}
+
+#map{
+  height: 560px !important;
+  margin: 30px auto;
+  width:100%;
+}
+
+
+#contact input{
+  margin-top: 20px;
+  background: white;
+  color: #000;
+  font-family: montserrat;
+  font-weight: bold;
+}
+
+::placeholder{
+  color:gray !important;
+}
+
+#contact textarea{
+  margin-top: 20PX;
+  background: white;
+  color:#000 !important;
+  font-size: 15px;
+  font-family: montserrat;
+  font-weight: bold;
+}
+
+
+
+
+
+#contact .contact-form .submit-btn{
+  font-size: 12px !important;
+  text-align: center;
+  width: 40%;
+  border-radius: 8px;
+  margin-top: 40px;
+  position: relative;
+  color: #e70000;
+  border: 1px solid #e70000 !important;
+  padding: 15px 27px;
+  font-family: myfont;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+#contact .contact-form .submit-btn:hover {
+  color: white;
+  box-shadow: 0 0 30px 0 rgba(0, 199, 236, 0.5);
+  background-color: #e70000 !important;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+#contact .contact-form .submit-btn:hover:before {
+  -webkit-animation: shine 0.5s 0s linear;
+  -moz-animation: shine 0.5s 0s linear;
+  animation: shine 0.5s 0s linear;
+}
+#contact .contact-form .submit-btn:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+#contact .contact-form .submit-btn:before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: white;
+  box-shadow: 0 0 15px 3px white;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@-webkit-keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+@-moz-keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+@keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+#footer{/*start-footer*/
+  width:100%;
+  height:400px;
+  background: var(--black);
+  margin-top: 80px;
+}
+
+#footer .text-1{
+  width:100%;
+  height:350px;
+  background: ;
+  position: relative;
+}
+
+#footer .text-1 .logo{
+  width:80px;
+  height:80px;
+  background: url(../images/logo.png);
+  position: absolute;
+}
+
+#footer .text-1 p{
+  position: absolute;
+  top:33%;
+  left:2%;
+  line-height: 25px;
+  font-size: 13px;
+  width: 83%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+#footer .text-1 .icons{
+  width:200px;
+  height:40px;
+  background: ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  top:70%;
+  left: 2%;
+  cursor: pointer;
+}
+
+#footer .text-1 .icons .s-icon{
+  width: 50px;
+  height:50px;
+  background: ;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+}
+
+#footer .text-1 .icons .s-icon .fa-youtube-play{
+  color: var(--red);
+}
+
+#footer .text-1 .icons .s-icon .fa-youtube-play:hover{
+  color: var(--white);
+  transition: all .2s;
+}
+
+#footer .text-2{
+  width:100%;
+  height:350px;
+  background: ;
+  position: relative;
+}
+
+#footer .text-2 h2{
+  color: var(--white);
+  font-size: 28px;
+  font-family: 'Changa', sans-serif;
+}
+
+#footer .text-2 .product-1{
+  width:100%;
+  height:150px;
+  background: ;
+  position: relative;
+}
+#footer .text-2 .product-1 .image-1{
+  height:70px;
+  background: url(../images/about/edm\ pro\ pc.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 70px;
+  position: absolute;
+  top:20%;
+  left:0;
+
+}
+
+#footer .text-2 .product-1  h3{
+  position: absolute;
+  left:40%;
+  top:20%;
+  color:var(--red);
+  font-size: 18px;
+  font-family: 'Changa', sans-serif;
+}
+
+#footer .text-2 .product-1  p{
+  position: absolute;
+  left:40%;
+  top:40%;
+  line-height: 20px;
+  font-size:12px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+#footer .text-2 .product-2{
+  width:100%;
+  height:150px;
+  background: ;
+  position: relative;
+}
+#footer .text-2 .product-2 .image-2{
+  height:70px;
+  background: url(../images/about/futter\ 6.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 70px;
+  position: absolute;
+  top:20%;
+  left:0;
+
+}
+
+#footer .text-2 .product-2  h3{
+  position: absolute;
+  left:40%;
+  top:20%;
+  color:var(--red);
+  font-size: 18px;
+  font-family: 'Changa', sans-serif;
+}
+
+#footer .text-2 .product-2  p{
+  position: absolute;
+  left:40%;
+  top:40%;
+  line-height: 20px;
+  font-size:12px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#footer .text-3{
+  width:100%;
+  height:350px;
+  background: ;
+  position: relative;
+}
+
+#footer .text-3 h3{
+  color: var(--white);
+  font-size: 28px;
+  font-family: 'Changa', sans-serif;
+}
+
+#footer .text-3 .images{
+  width:100%;
+  height:250px;
+  background: ;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+#footer .text-3 .images .image-1{
+  width:46%;
+  height:100px;
+  background: red;
+  background: url(../images/about/futter\ 5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#footer .text-3 .images .image-2{
+  width:46%;
+  height:100px;
+  background: red;
+  background: url(../images/about/futter\ pro\ \ setup.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#footer .text-3 .images .image-3{
+  width:46%;
+  height:100px;
+  background: red;
+  background: url(../images/about/futter\ 2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#footer .text-3 .images .image-4{
+  width:46%;
+  height:100px;
+  background: red;
+  background: url(../images/about/futter\ 4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+#footer .text-4{
+  width:100%;
+  height:350px;
+  background: ;
+  position: relative;
+}
+
+#footer .text-4 h3{
+  color: var(--white);
+  font-size: 28px;
+  position: absolute;
+  left:5%;
+  font-family: 'Changa', sans-serif;
+}
+
+#footer .text-4 p{
+  position: absolute;
+  line-height: 18px;
+  top:17%;
+  line-height: 25px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  width: 95%;
+  left:5%;
+}
+
+#footer .text-4 #check{
+  width: 90%;
+  height:45px;
+  position: absolute;
+  top:55%;
+  left:5%;
+  font-size: 13px;
+  padding: 15px;
+  font-family: changa;
+}
+
+
+::placeholder{
+  font-size: 13px;
+  letter-spacing: 1px;
+  color:var(--red);
+}
+
+
+
+
+#footer .text-4 .btn {
+  font-size: 10px;
+  position: absolute;
+  top:57%;
+  right:7%;
+  text-align: center;
+  background: #e70000;
+  color: #fff;
+  border: 1px solid #e70000;
+  padding: 8px 13px;
+  font-family: myfont;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+ #footer .text-4 .btn:hover {
+  color: white;
+  box-shadow: 0 0 30px 0 rgba(0, 199, 236, 0.5);
+  background-color: #e70000;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+ #footer .text-4 .btn:hover:before {
+  -webkit-animation: shine 0.5s 0s linear;
+  -moz-animation: shine 0.5s 0s linear;
+  animation: shine 0.5s 0s linear;
+}
+ #footer .text-4 .btn:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+ #footer .text-4 .btn:before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: white;
+  box-shadow: 0 0 15px 3px white;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@-webkit-keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+@-moz-keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+@keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}/*end-footer*/

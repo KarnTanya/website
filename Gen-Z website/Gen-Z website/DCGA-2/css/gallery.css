@@ -1,0 +1,64 @@
+
+.card{
+    background: none !important;
+    width: 100%;
+    margin-top: 0px;
+    /*border:2px solid black;*/
+}
+.card-image{
+    width:100%;
+    background-size:cover;
+    /*border:2px solid black;*/
+}
+.card-image.card-1{
+    background-image:url(../images/specialist/image-1.png);
+    height:500px;
+    width: 100%;
+    margin-top:60px;
+    margin-bottom: 80px;
+}
+
+
+
+
+.card-image.card-2{
+    background-image:url(../images/specialist/image-2.png);
+    height:500px;
+    width: 100%;
+    margin-top:60px;
+}
+.card-image.card-3{
+    background-image:url(../images/specialist/image-3.png);
+    height:500px;
+    width: 400px;
+    margin-top:60px;
+}
+
+@keyframes hover{
+    50%{
+        transform:translateY(-5px);
+    }
+    100%{
+        transfrom:translateY(-10px);
+    }
+}
+.card-image.card-1:hover,
+.card-image.card-2:hover,
+.card-image.card-3:hover,
+.card-image.card-4:hover{
+    transform:translateY(-10px);
+    animation-name:hover;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    transform:translateY(-10px);
+}
+.card-image.card-1:hover{
+    box-shadow: 0 80px 80px -60px #3F5559;
+}
+.card-image.card-2:hover{
+    box-shadow: 0 80px 80px -60px #3F5559;
+  
+}
+.card-image.card-3:hover{
+    box-shadow: 0 80px 80px -60px #3F5559;
+}

@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+*{
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+}
+
+
+
+
+#sidename{
+	background: #fff !important;
+}
+
+#sidemail{
+	background: #fff !important;
+}
+
+#sidemobile{
+	background: #fff !important;
+}
+
+#enqselect{
+	background: #fff !important;
+	color: var(--red) !important;
+}
+
+#enqselect option{
+	background: #fff !important;
+}
+
+
+.icon-bar {
+	position:fixed;
+	top:50%;
+	transform:translateY(-50%);
+	z-index:10;
+}
+
+.icon-bar .fa-facebook{
+	color:#fff;
+}
+
+.icon-bar .fa-instagram{
+	color:#fff;
+}
+
+.icon-bar a {
+	text-decoration:none;
+	width:50px;
+	border-radius:0px 5px 5px 0px;
+	margin: 3px 0px;
+	color: #fff;
+	display: flex;
+	justify-content:flex-end;
+	align-items:center;
+	padding: 10px;
+	font-size: 20px;
+	transform: translateX(-14px);
+}
+
+.facebook {
+	background: #e70000;
+}
+
+.youtube {
+	background: #e70000;
+}
+
+.instagram {
+	background: #e70000;
+}
+
+.linkedin {
+	background: #e70000;
+}
+
+a:hover {
+	transform: translateX(0);
+}
+
+
+
+
+
+.sidebar-form{
+   position:fixed;
+   top:50%;
+   right:-350px;
+   width:350px;
+   height:auto;
+   border-radius:10px 0px 0px 10px;
+   padding:10px;
+   background:var(--black);
+   border: 1px solid var(--white);
+   transform:translateY(-50%);
+   transition:right .4s linear;
+   z-index:15;
+}
+.sidebar-form.show{
+	right:0px;
+}
+.sidebar-form .call-action{
+	background:var(--red);
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: var(--white-color);
+	font-family: myfont;
+	width: 150px;
+	height: 40px;
+	border-radius:10px 10px 0px 0px;
+	text-align:center;
+	line-height: 40px;
+	cursor: pointer;
+	position:fixed;
+	top:38%;
+	left:-94px;
+	transform:translateY(50%) rotate(-90deg);
+}
+
+.sidebar-form .call-action h2{
+	font-size: 12px !important;
+}
+
+
+.sidebar-form h3{
+   font-weight: 700;
+   text-transform: uppercase;
+   font-size: 20px;
+   margin-bottom: 15px;
+   text-align: center;
+   color: var(--white-color);
+}
+
+.btn-1{
+	width: 120px;
+	height:40px;
+	margin-top: 30px !important;
+}
+
+h2{
+	font-size: 20px;
+	line-height: 42px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 540px) {
+	.icon-bar{
+		display: none !important;
+	}
+}
